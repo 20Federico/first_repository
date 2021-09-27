@@ -1,7 +1,7 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /************************************************************** TAG ************************************************************** /
@@ -13,13 +13,13 @@
 /******************************* LAYOUT *******************************/
 
 .col-1_N {
-    width: calc(100% / N);
+  width: calc(100% / N);
 }
 
 /******************************* UTILITIES *******************************/
 
 .clearfix::after {
-    content: "";
-    display: table;
-    clear: both;
+  content: "";
+  display: table;
+  clear: both;
 }

@@ -1,10 +1,8 @@
 'use strict'
-
-
 Vue.config.devtools = true;
 
 window.addEventListener('DOMContentLoaded', function () {
-  const vueApp = new Vue({
+  new Vue({
       el: '',
       data: {
         username: '',
@@ -15,6 +13,4 @@ window.addEventListener('DOMContentLoaded', function () {
         },
       },
   });
-
-
 })
